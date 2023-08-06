@@ -1,0 +1,49 @@
+:root {
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 700;
+  color: #7faa88;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: rgb(164, 216, 174);
+}
+
+body {
+  padding-left: 2%;
+  padding-right: 4%;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+.wishlist {
+  font-size: 1em;
+}
+
+.wishlist.completed {
+  text-decoration: line-through;
+  opacity: 0.25;
+}
+
+footer {
+  padding-top: 20em;
+  font-size: 0.2em;
+}
