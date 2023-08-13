@@ -42,6 +42,18 @@ const wishlist = [
         "link": "http://kko.to/n_Z9jIDCXA",
         "link_title": "http://kko.to/n_Z9jIDCXA",
     },
+    {
+        "completed": false,
+        "name": "드립 분쇄 원두",
+        "link": "https://terarosa.com/market/product/detail/158-158?categoryId=5#;",
+        "link_title": "https://terarosa.com/market/product/detail/158-158?categoryId=5#;",
+    },
+    {
+        "completed": false,
+        "name": "하얗고 얇은 바람막이",
+        "link": "https://www.nike.com/kr/t/%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%9B%A8%EC%96%B4-%EC%97%90%EC%84%BC%EC%85%9C-%EC%97%AC%EC%84%B1-%EC%9A%B0%EB%B8%90-%EC%9E%AC%ED%82%B7-O66HvTMH/DX5865-100",
+        "link_title": "나이키 바람막이 링크",
+    },
 ]
 
 function shuffle(array) {
