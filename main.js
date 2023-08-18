@@ -1,7 +1,7 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
-        "completed": false,
+        "completed": true,
         "name": "접고 펴는 부채",
         "link": "https://idus.kr/Fibow",
         "link_title": "https://idus.kr/Fibow",
@@ -37,7 +37,7 @@ const wishlist = [
         "link_title": "https://idus.kr/F9avO",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "조말론 코롱",
         "link": "http://kko.to/n_Z9jIDCXA",
         "link_title": "http://kko.to/n_Z9jIDCXA",
