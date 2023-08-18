@@ -19,7 +19,7 @@ const wishlist = [
         "link_title": "https://idus.kr/FTjGn",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "약과 모형",
         "link": "https://idus.kr/F5Sil",
         "link_title": "https://idus.kr/F5Sil",
