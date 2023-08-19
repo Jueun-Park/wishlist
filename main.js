@@ -43,7 +43,7 @@ const wishlist = [
         "link_title": "http://kko.to/n_Z9jIDCXA",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "드립 분쇄 원두",
         "link": "https://terarosa.com/market/product/detail/158-158?categoryId=5#;",
         "link_title": "테라로사 원두 링크",
