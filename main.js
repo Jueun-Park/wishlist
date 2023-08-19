@@ -25,7 +25,7 @@ const wishlist = [
         "link_title": "https://idus.kr/F5Sil",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "실리콘 컵받침",
         "link": "http://kko.to/fFmUboezF0",
         "link_title": "http://kko.to/fFmUboezF0",
