@@ -31,7 +31,7 @@ const wishlist = [
         "link_title": "http://kko.to/fFmUboezF0",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "악세사리 트레이",
         "link": "https://idus.kr/F9avO",
         "link_title": "https://idus.kr/F9avO",
