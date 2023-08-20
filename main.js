@@ -13,7 +13,7 @@ const wishlist = [
         "link_title": "도커 각티슈 케이스 링크"
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "종이학 모양 금속 조각",
         "link": "https://idus.kr/FTjGn",
         "link_title": "https://idus.kr/FTjGn",
