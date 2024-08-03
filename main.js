@@ -37,13 +37,13 @@ const wishlist = [
         "link_title": "https://www.neato.co.kr/48/?idx=203",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "모여봐요 동물의 숲",
         "link": "https://store.nintendo.co.kr/70010000027621",
         "link_title": "https://store.nintendo.co.kr/70010000027621",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "슈퍼 마리오 오디세이",
         "link": "https://store.nintendo.co.kr/70010000009372",
         "link_title": "https://store.nintendo.co.kr/70010000009372",
