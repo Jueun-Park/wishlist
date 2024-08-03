@@ -1,6 +1,44 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
+        "completed": false,
+        "name": "배드민턴 가방",
+        "link": "https://www.yonexmall.com/m2/goods/view.php?goodsno=7099",
+        "link_title": "요넥스 가방 링크",
+    },
+    {
+        "completed": false,
+        "name": "종이비행기 모양 금속 조각",
+        "link": "https://idus.kr/Fu6JV",
+        "link_title": "https://idus.kr/Fu6JV",
+    },
+    {
+        "completed": false,
+        "name": "맥주잔 2개",
+        "link": "https://kko.to/13XXgcPl3u",
+        "link_title": "https://kko.to/13XXgcPl3u",
+    },
+    {
+        "completed": false,
+        "name": "배드민턴 반바지",
+        "link": "https://kko.to/PP76qaRZHF",
+        "link_title": "https://kko.to/PP76qaRZHF",
+    },
+    {
+        "completed": false,
+        "name": "하리오 V60 커피 드리퍼",
+        "link": "https://kko.to/U0s2DW7zFE",
+        "link_title": "https://kko.to/U0s2DW7zFE",
+    },
+    {
+        "completed": false,
+        "name": "브라질 빈할 누텔라 커피 원두",
+        "link": "https://www.neato.co.kr/48/?idx=203",
+        "link_title": "https://www.neato.co.kr/48/?idx=203",
+    },
+]
+const wishlist2023 = [
+    {
         "completed": true,
         "name": "접고 펴는 부채",
         "link": "https://idus.kr/Fibow",
@@ -54,12 +92,6 @@ const wishlist = [
         "link": "https://www.nike.com/kr/t/%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%9B%A8%EC%96%B4-%EC%97%90%EC%84%BC%EC%85%9C-%EC%97%AC%EC%84%B1-%EC%9A%B0%EB%B8%90-%EC%9E%AC%ED%82%B7-O66HvTMH/DX5865-100",
         "link_title": "나이키 바람막이 링크",
     },
-    {
-        "completed": false,
-        "name": "코바늘 뜨개질 실",
-        "link": "https://jueun-park.github.io/wishlist/",
-        "link_title": "... 모르겠어요! (상담 필요)",
-    },
 ]
 
 function shuffle(array) {
@@ -78,4 +110,8 @@ function getWishlist(wishlist) {
     `).join('') + "</ul>"
 }
 
-container.innerHTML = getWishlist(wishlist);
+function getBody() {
+    return getWishlist(wishlist) + "<h3>작년의 기록</h3>" + getWishlist(wishlist2023)
+}
+
+container.innerHTML = getBody();
