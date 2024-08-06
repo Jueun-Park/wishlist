@@ -13,7 +13,7 @@ const wishlist = [
         "link_title": "https://idus.kr/Fu6JV",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "맥주잔 2개",
         "link": "https://kko.to/13XXgcPl3u",
         "link_title": "https://kko.to/13XXgcPl3u",
