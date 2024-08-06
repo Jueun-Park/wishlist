@@ -31,7 +31,7 @@ const wishlist = [
         "link_title": "https://kko.to/U0s2DW7zFE",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "브라질 빈할 누텔라 커피 원두",
         "link": "https://www.neato.co.kr/48/?idx=203",
         "link_title": "https://www.neato.co.kr/48/?idx=203",
