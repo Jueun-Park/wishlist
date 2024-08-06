@@ -48,6 +48,24 @@ const wishlist = [
         "link": "https://store.nintendo.co.kr/70010000009372",
         "link_title": "https://store.nintendo.co.kr/70010000009372",
     },
+    {
+        "completed": false,
+        "name": "스트레스리스 ",
+        "link": "https://acebedmall.co.kr/front/goods/goodsDetail.do?goodsNo=G2103231146_2231",
+        "link_title": "https://acebedmall.co.kr/front/goods/goodsDetail.do?goodsNo=G2103231146_2231",
+    },
+    {
+        "completed": false,
+        "name": "삼성 큐커 멀티/오븐",
+        "link": "https://www.samsung.com/sec/cooking-appliances/microwave-oven-convection-MC35A8599LU-d2c/MC35A8599LE/",
+        "link_title": "https://www.samsung.com/sec/cooking-appliances/microwave-oven-convection-MC35A8599LU-d2c/MC35A8599LE/",
+    },
+    {
+        "completed": false,
+        "name": "클럽메드 몰디브 피놀루 빌라",
+        "link": "https://www.clubmed.co.kr/r/%ED%94%BC%EB%86%80%EB%A3%A8-%EB%B9%8C%EB%9D%BC/y",
+        "link_title": "https://www.clubmed.co.kr/r/%ED%94%BC%EB%86%80%EB%A3%A8-%EB%B9%8C%EB%9D%BC/y",
+    },
 ]
 const wishlist2023 = [
     {
