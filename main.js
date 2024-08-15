@@ -1,7 +1,7 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
-        "completed": false,
+        "completed": true,
         "name": "배드민턴 가방",
         "link": "https://www.yonexmall.com/m2/goods/view.php?goodsno=7099",
         "link_title": "요넥스 가방 링크",
@@ -25,7 +25,7 @@ const wishlist = [
         "link_title": "https://kko.to/PP76qaRZHF",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "하리오 V60 커피 드리퍼",
         "link": "https://kko.to/U0s2DW7zFE",
         "link_title": "https://kko.to/U0s2DW7zFE",
