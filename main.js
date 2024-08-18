@@ -48,6 +48,24 @@ const wishlist = [
         "link": "https://store.nintendo.co.kr/70010000009372",
         "link_title": "https://store.nintendo.co.kr/70010000009372",
     },
+    {
+        "completed": false,
+        "name": "배드민턴 키링",
+        "link": "https://idus.kr/FYMde",
+        "link_title": "https://idus.kr/FYMde",
+    },
+    {
+        "completed": false,
+        "name": "미니 크로스백",
+        "link": "https://www.musinsa.com/app/goods/1992253?_gf=A",
+        "link_title": "https://www.musinsa.com/app/goods/1992253?_gf=A",
+    },
+    {
+        "completed": false,
+        "name": "현금 지갑",
+        "link": "https://www.musinsa.com/app/goods/3870889?_gf=A",
+        "link_title": "https://www.musinsa.com/app/goods/3870889?_gf=A",
+    },
 ]
 const wishlist2023 = [
     {
