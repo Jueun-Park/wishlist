@@ -49,7 +49,7 @@ const wishlist = [
         "link_title": "https://store.nintendo.co.kr/70010000009372",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "배드민턴 키링",
         "link": "https://idus.kr/FYMde",
         "link_title": "https://idus.kr/FYMde",
