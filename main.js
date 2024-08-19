@@ -19,7 +19,7 @@ const wishlist = [
         "link_title": "https://kko.to/13XXgcPl3u",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "배드민턴 반바지",
         "link": "https://kko.to/PP76qaRZHF",
         "link_title": "https://kko.to/PP76qaRZHF",
@@ -55,7 +55,7 @@ const wishlist = [
         "link_title": "https://idus.kr/FYMde",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "미니 크로스백",
         "link": "https://www.musinsa.com/app/goods/1992253?_gf=A",
         "link_title": "https://www.musinsa.com/app/goods/1992253?_gf=A",
