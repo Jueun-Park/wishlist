@@ -61,7 +61,7 @@ const wishlist = [
         "link_title": "https://www.musinsa.com/app/goods/1992253?_gf=A",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "현금 지갑",
         "link": "https://www.musinsa.com/app/goods/3870889?_gf=A",
         "link_title": "https://www.musinsa.com/app/goods/3870889?_gf=A",
