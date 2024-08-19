@@ -7,7 +7,7 @@ const wishlist = [
         "link_title": "요넥스 가방 링크",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "종이비행기 모양 금속 조각",
         "link": "https://idus.kr/Fu6JV",
         "link_title": "https://idus.kr/Fu6JV",
