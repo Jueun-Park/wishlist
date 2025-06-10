@@ -24,7 +24,7 @@ body {
   padding-left: 2%;
   padding-right: 4%;
   margin: 0;
-  place-items: center;
+  place-items: left;
   min-width: 320px;
   min-height: 100vh;
 }
