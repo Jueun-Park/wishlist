@@ -1,6 +1,73 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
+        "completed": false,
+        "name": "화장실 앞에 둘 발매트",
+        "link": "https://ozip.me/JIPYxkY",
+    },
+    {
+        "completed": false,
+        "name": "벽에 걸 시계",
+        "link": "https://smartstore.naver.com/bananagongbang81/products/10224566072",
+    },
+    {
+        "completed": false,
+        "name": "씨서볼",
+        "link": "http://haude.kr/products/8285694270",
+    },
+    {
+        "completed": false,
+        "name": "거실에 둘 장스탠드 (디자인 고민 중)",
+    },
+    {
+        "completed": false,
+        "name": "옷방 전신거울 앞에 둘 러그",
+        "link": "https://smartstore.naver.com/likethix/products/5235191470",
+    },
+    {
+        "completed": false,
+        "name": "바이칸 청소솔",
+        "link": "https://brand.naver.com/vikan/products/8401370561",
+    },
+    {
+        "completed": false,
+        "name": "펠로우 오드 브루 그라인더 Gen2 화이트",
+        "link": "https://brand.naver.com/fellowkorea/products/11378776732",
+    },
+    {
+        "completed": false,
+        "name": "핸드드립용 전기 주전자",
+        "link": "https://brand.naver.com/fellowkorea/products/11379675377",
+    },
+    {
+        "completed": false,
+        "name": "핸드드립/요리용 저울",
+    },
+    {
+        "completed": false,
+        "name": "반려 미생물",
+        "link": "https://brand.naver.com/reencle/products/3337932462",
+    },
+    {
+        "completed": false,
+        "name": "컵 (집에 아직 없는 종류의 것들)",
+    },
+    {
+        "completed": false,
+        "name": "오래 사는 식물이 심겨진 화분",
+    },
+    {
+        "completed": false,
+        "name": "여름 잠옷",
+    },
+    {
+        "completed": false,
+        "name": "장식용 아크릴 함",
+        "link": "https://smartstore.naver.com/ezu/products/11658955522",
+    }
+]
+const wishlist2024 = [
+    {
         "completed": true,
         "name": "배드민턴 가방",
         "link": "https://www.yonexmall.com/m2/goods/view.php?goodsno=7099",
@@ -133,7 +200,7 @@ function getWishlist(wishlist) {
     return "<ul>" + wishlist.map(wish => `
         <li>
             <span class="${wish.completed ? "wishlist completed" : "wishlist"}">
-                ${wish.name}, 예를 들면 이런 것: <a href=${wish.link}>${wish.link_title}</a>
+                ${wish.name}${wish.link ? `, 예를 들면 이런 것: <a target="_blank" href=${wish.link}>${wish.link_title || wish.link}</a>` : ""}
             </span>
             <small class="thanks">${wish.completed ? "고마워요!" : ""}</small>
         </li>
@@ -141,7 +208,11 @@ function getWishlist(wishlist) {
 }
 
 function getBody() {
-    return getWishlist(wishlist) + "<h3>작년의 기록</h3>" + getWishlist(wishlist2023)
+    return (
+        getWishlist(wishlist) +
+        "<h3>작년의 기록</h3>" + getWishlist(wishlist2024) +
+        "<h3>재작년의 기록</h3>" + getWishlist(wishlist2023)
+    )
 }
 
 container.innerHTML = getBody();
