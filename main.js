@@ -2,8 +2,8 @@ const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
         "completed": false,
-        "name": "화장실 앞에 둘 발매트",
-        "link": "https://ozip.me/JIPYxkY",
+        "name": "화장실 앞에 둘 발매트 2개",
+        "link": "https://ozip.me/6I7takF",
     },
     {
         "completed": false,
@@ -42,6 +42,7 @@ const wishlist = [
     {
         "completed": false,
         "name": "핸드드립/요리용 저울",
+        "link": "https://smartstore.naver.com/modernpeak/products/6186277243"
     },
     {
         "completed": false,
@@ -49,7 +50,7 @@ const wishlist = [
         "link": "https://brand.naver.com/reencle/products/3337932462",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "컵 (집에 아직 없는 종류의 것들)",
     },
     {
@@ -59,11 +60,27 @@ const wishlist = [
     {
         "completed": false,
         "name": "여름 잠옷",
+        "link": "https://brand.naver.com/dossy/products/11662445695"
     },
     {
         "completed": false,
         "name": "장식용 아크릴 함",
         "link": "https://smartstore.naver.com/ezu/products/11658955522",
+    },
+    {
+        "completed": false,
+        "name": "분리수거함 2구와 캔 압축기 세트",
+        "link": "https://ozip.me/mB2b2He"
+    },
+    {
+        "completed": false,
+        "name": "앨리스 배열 저소음 바나나축 키보드",
+        "link": "https://brand.naver.com/keychron/products/11615578456"
+    },
+    {
+        "completed": false,
+        "name": "미니 2단 스텐 트롤리와 사이드 바스켓",
+        "link": "https://smartstore.naver.com/ways/products/11825096698"
     }
 ]
 const wishlist2024 = [
