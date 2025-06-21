@@ -20,7 +20,7 @@ const wishlist = [
         "name": "거실에 둘 장스탠드 (디자인 고민 중)",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "옷방 전신거울 앞에 둘 러그",
         "link": "https://smartstore.naver.com/likethix/products/5235191470",
     },
