@@ -17,7 +17,13 @@ const wishlist = [
     },
     {
         "completed": false,
-        "name": "거실에 둘 장스탠드 (디자인 고민 중)",
+        "name": "거실에 둘 장스탠드",
+        "link": "https://www.ikea.com/kr/ko/p/hektogram-floor-uplighter-silver-colour-white-40477731/",
+    },
+    {
+        "completed": false,
+        "name": "거실에 둘 장스탠드에 끼울 스마트 전구",
+        "link": "https://brand.naver.com/tplink/products/5744555273",
     },
     {
         "completed": true,
@@ -58,7 +64,7 @@ const wishlist = [
         "name": "오래 사는 식물이 심겨진 화분",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "여름 잠옷",
         "link": "https://brand.naver.com/dossy/products/11662445695"
     },
