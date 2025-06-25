@@ -31,7 +31,7 @@ const wishlist = [
         "link": "https://smartstore.naver.com/likethix/products/5235191470",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "바이칸 청소솔",
         "link": "https://brand.naver.com/vikan/products/8401370561",
     },
@@ -46,7 +46,7 @@ const wishlist = [
         "link": "https://brand.naver.com/fellowkorea/products/11379675377",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "핸드드립/요리용 저울",
         "link": "https://smartstore.naver.com/modernpeak/products/6186277243"
     },
@@ -60,7 +60,7 @@ const wishlist = [
         "name": "컵 (집에 아직 없는 종류의 것들)",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "오래 사는 식물이 심겨진 화분",
     },
     {
