@@ -74,7 +74,7 @@ const wishlist = [
         "link": "https://smartstore.naver.com/ezu/products/11658955522",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "분리수거함 2구와 캔 압축기 세트",
         "link": "https://ozip.me/mB2b2He"
     },
@@ -84,7 +84,7 @@ const wishlist = [
         "link": "https://brand.naver.com/keychron/products/11615578456"
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "미니 2단 스텐 트롤리와 사이드 바스켓",
         "link": "https://smartstore.naver.com/ways/products/11825096698"
     }
