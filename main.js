@@ -1,7 +1,7 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
-        "completed": false,
+        "completed": true,
         "name": "화장실 앞에 둘 발매트 2개",
         "link": "https://ozip.me/6I7takF",
     },
@@ -11,17 +11,17 @@ const wishlist = [
         "link": "https://smartstore.naver.com/bananagongbang81/products/10224566072",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "씨서볼",
         "link": "http://haude.kr/products/8285694270",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "거실에 둘 장스탠드",
         "link": "https://www.ikea.com/kr/ko/p/hektogram-floor-uplighter-silver-colour-white-40477731/",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "거실에 둘 장스탠드에 끼울 스마트 전구",
         "link": "https://brand.naver.com/tplink/products/5744555273",
     },
@@ -72,11 +72,6 @@ const wishlist = [
         "completed": false,
         "name": "장식용 아크릴 함",
         "link": "https://smartstore.naver.com/ezu/products/11658955522",
-    },
-    {
-        "completed": true,
-        "name": "분리수거함 2구와 캔 압축기 세트",
-        "link": "https://ozip.me/mB2b2He"
     },
     {
         "completed": false,
