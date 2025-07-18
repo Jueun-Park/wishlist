@@ -82,6 +82,26 @@ const wishlist = [
         "completed": true,
         "name": "미니 2단 스텐 트롤리와 사이드 바스켓",
         "link": "https://smartstore.naver.com/ways/products/11825096698"
+    },
+    {
+        "completed": false,
+        "name": "세븐원더스 듀얼",
+        "link": "https://brand.naver.com/koreaboardgames/products/5189378227"
+    },
+    {
+        "completed": false,
+        "name": "센추리: 향신료의 길",
+        "link": "https://brand.naver.com/asmodeekorea/products/5572353047"
+    },
+    {
+        "completed": false,
+        "name": "더마인드 익스트림",
+        "link": "https://smartstore.naver.com/edupop/products/11351699367"
+    },
+    {
+        "completed": false,
+        "name": "스틱 스택",
+        "link": "https://smartstore.naver.com/edupop/products/5672975163"
     }
 ]
 const wishlist2024 = [
