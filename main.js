@@ -6,7 +6,7 @@ const wishlist = [
         "link": "https://ozip.me/6I7takF",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "벽에 걸 시계",
         "link": "https://smartstore.naver.com/bananagongbang81/products/10224566072",
     },
@@ -69,7 +69,7 @@ const wishlist = [
         "link": "https://brand.naver.com/dossy/products/11662445695"
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "장식용 아크릴 함",
         "link": "https://smartstore.naver.com/ezu/products/11658955522",
     },
