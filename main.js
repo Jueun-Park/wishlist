@@ -89,7 +89,7 @@ const wishlist = [
         "link": "https://brand.naver.com/koreaboardgames/products/5189378227"
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "센추리: 향신료의 길",
         "link": "https://brand.naver.com/asmodeekorea/products/5572353047"
     },
