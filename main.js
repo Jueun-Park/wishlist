@@ -1,6 +1,47 @@
 const container = document.getElementById('wishlist-container');
 const wishlist = [
     {
+        "completed": false,
+        "name": "펠로우 오드 브루 그라인더 Gen2 화이트",
+        "link": "https://brand.naver.com/fellowkorea/products/11378776732",
+    },
+    {
+        "completed": false,
+        "name": "핸드드립용 전기 주전자",
+        "link": "https://brand.naver.com/fellowkorea/products/11379675377",
+    },
+    {
+        "completed": false,
+        "name": "더마인드 익스트림",
+        "link": "https://smartstore.naver.com/edupop/products/11351699367",
+    },
+    {
+        "completed": false,
+        "name": "세븐원더스 듀얼",
+        "link": "https://brand.naver.com/koreaboardgames/products/5189378227",
+    },
+    {
+        "completed": false,
+        "name": "키크론 저소음 바나나 스위치",
+        "link": "https://brand.naver.com/keychron/products/7076623448",
+    },
+    {
+        "completed": false,
+        "name": "ZUOYA GMK70 (키축, 키캡 미포함)",
+    },
+    {
+        "completed": false,
+        "name": "체리 프로파일 키캡 (GMK70 호환)",
+        "link": "https://smartstore.naver.com/geonlab/products/11956985264",
+    },
+    {
+        "completed": false,
+        "name": "당신이 만들어준 커스텀 리무버블 스티커",
+        "link": "https://www.marpple.com/kr/product/detail?bp_id=8213",
+    },
+]
+const wishlist2025spring = [
+    {
         "completed": true,
         "name": "화장실 앞에 둘 발매트 2개",
         "link": "https://ozip.me/6I7takF",
@@ -36,24 +77,9 @@ const wishlist = [
         "link": "https://brand.naver.com/vikan/products/8401370561",
     },
     {
-        "completed": false,
-        "name": "펠로우 오드 브루 그라인더 Gen2 화이트",
-        "link": "https://brand.naver.com/fellowkorea/products/11378776732",
-    },
-    {
-        "completed": false,
-        "name": "핸드드립용 전기 주전자",
-        "link": "https://brand.naver.com/fellowkorea/products/11379675377",
-    },
-    {
         "completed": true,
         "name": "핸드드립/요리용 저울",
         "link": "https://smartstore.naver.com/modernpeak/products/6186277243"
-    },
-    {
-        "completed": false,
-        "name": "반려 미생물",
-        "link": "https://brand.naver.com/reencle/products/3337932462",
     },
     {
         "completed": true,
@@ -74,35 +100,17 @@ const wishlist = [
         "link": "https://smartstore.naver.com/ezu/products/11658955522",
     },
     {
-        "completed": false,
-        "name": "앨리스 배열 저소음 바나나축 키보드",
-        "link": "https://brand.naver.com/keychron/products/11615578456"
-    },
-    {
         "completed": true,
         "name": "미니 2단 스텐 트롤리와 사이드 바스켓",
         "link": "https://smartstore.naver.com/ways/products/11825096698"
     },
-    {
-        "completed": false,
-        "name": "세븐원더스 듀얼",
-        "link": "https://brand.naver.com/koreaboardgames/products/5189378227"
-    },
+
     {
         "completed": true,
         "name": "센추리: 향신료의 길",
         "link": "https://brand.naver.com/asmodeekorea/products/5572353047"
     },
-    {
-        "completed": false,
-        "name": "더마인드 익스트림",
-        "link": "https://smartstore.naver.com/edupop/products/11351699367"
-    },
-    {
-        "completed": false,
-        "name": "스틱 스택",
-        "link": "https://smartstore.naver.com/edupop/products/5672975163"
-    }
+
 ]
 const wishlist2024 = [
     {
@@ -248,6 +256,7 @@ function getWishlist(wishlist) {
 function getBody() {
     return (
         getWishlist(wishlist) +
+        "<h3>올해 봄의 기록</h3>" + getWishlist(wishlist2025spring) +
         "<h3>작년의 기록</h3>" + getWishlist(wishlist2024) +
         "<h3>재작년의 기록</h3>" + getWishlist(wishlist2023)
     )
