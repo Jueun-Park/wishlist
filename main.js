@@ -22,15 +22,20 @@ const wishlist = [
     },
     {
         "completed": false,
+        "name": "스틱 스택",
+        "link": "https://smartstore.naver.com/edupop/products/5672975163",
+    },
+    {
+        "completed": true,
         "name": "키크론 저소음 바나나 스위치",
         "link": "https://brand.naver.com/keychron/products/7076623448",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "ZUOYA GMK70 (키축, 키캡 미포함)",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "체리 프로파일 키캡 (GMK70 호환)",
         "link": "https://smartstore.naver.com/geonlab/products/11956985264",
     },
