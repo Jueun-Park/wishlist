@@ -11,12 +11,12 @@ const wishlist = [
         "link": "https://brand.naver.com/fellowkorea/products/11379675377",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "더마인드 익스트림",
         "link": "https://smartstore.naver.com/edupop/products/11351699367",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "세븐원더스 듀얼",
         "link": "https://brand.naver.com/koreaboardgames/products/5189378227",
     },
