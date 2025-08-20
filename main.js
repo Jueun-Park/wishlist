@@ -21,7 +21,7 @@ const wishlist = [
         "link": "https://brand.naver.com/koreaboardgames/products/5189378227",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "스틱 스택",
         "link": "https://smartstore.naver.com/edupop/products/5672975163",
     },
@@ -40,7 +40,7 @@ const wishlist = [
         "link": "https://smartstore.naver.com/geonlab/products/11956985264",
     },
     {
-        "completed": false,
+        "completed": true,
         "name": "당신이 만들어준 커스텀 리무버블 스티커",
         "link": "https://www.marpple.com/kr/product/detail?bp_id=8213",
     },
